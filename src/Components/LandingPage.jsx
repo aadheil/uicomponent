@@ -21,12 +21,13 @@ function LandingPage() {
   return (
     <>
     <Navbars/>
+    <div className=' ms-3 mt-2 mb-1' ><button className='btn btn-outline-dark' onClick={handlesidebar}>☰</button></div>
     <div className='d-flex fullbody' style={{height:'100%'}}>
         {isSidebar&&<div className='sidebarmain shadow ' style={{zIndex:'6'}} >
             <Sidebar/>
         </div>}
         <div className='bodycontent bg-light d-flex flex-column ' style={{width:'100%'}} >
-        <div className=' ms-3 mt-2' ><button className='btn btn-outline-dark' onClick={handlesidebar}>☰</button></div>
+        {/* <div className=' ms-3 mt-2' ><button className='btn btn-outline-dark' onClick={handlesidebar}>☰</button></div> */}
 
             <div className='head'>
                 <div className='d-flex justify-content-center'style={{height:'100%',width:'100%'}}><h3 className='mt-1 ms-3 justify-content-center'>Choose a plan that's just right for you!</h3></div>

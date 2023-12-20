@@ -2,10 +2,10 @@ import React from 'react'
 import './sidebar.css'
 function Sidebar() {
   return (
-    <div className='sidebarr d-flex flex-column ' style={{width:'100%',zIndex:'5'}}>
+    <div className='sidebarr d-flex flex-column bg-light' style={{width:'190px',zIndex:'15'}}>
         <div className='mt-4 rounded d-flex flex-column shadow justify-content-center align-items-center w-100' style={{height:'130px'}}>
             <div className='mt-4 d-flex-justify-content-center'> <img src="https://th.bing.com/th/id/OIP.m3GfJuIbiEIwlHe1GzN4vQHaLH?w=800&h=1200&rs=1&pid=ImgDetMain" style={{width:'50px',height:'50px',borderRadius:'50%'}} alt="" /></div>
-            <div className='fw-bolder d-flex justify-content-center w-100'>Tovino Thomas </div>
+            <div className='fw-bolder d-flex justify-content-center w-100'>Tovino Thomas<i className="fa-solid fa-angle-right mt-1 me-1"></i> </div>
             <div className='mb-2 d-flex justify-content-center w-100'>tovino@gmail.com</div>
         </div>
         <div className='d-flex flex-column'>
