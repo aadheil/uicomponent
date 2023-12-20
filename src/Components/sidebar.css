@@ -1,0 +1,43 @@
+
+/* .sidebarmain{
+    width: 15%;
+    height: 100%;
+}
+
+.bodycontent{
+    width: 85%;
+    height: 100%;
+} */
+
+/* .sidebaricon{
+    display: none;
+} */
+
+/* @media (max-width: 768px) {
+    .sidebarmain {
+      display: none;
+      width: 0%;
+      height: 0%;
+     
+     
+      
+    }
+    .bodycontent{
+        width: 95%;
+        
+    }
+
+    .sidebaricon{
+        display: flex;
+        
+        height: 50px;
+    }
+} */
+
+/* .fullbody{
+    position: absolute;
+}
+.sidebarmain{
+    position: relative;
+
+} */
