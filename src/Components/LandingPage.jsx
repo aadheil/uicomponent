@@ -42,7 +42,7 @@ function LandingPage() {
             </div>
             <Row className='d-flex justify-content-evenly mt-4'>
             <Col sm={12} lg={3} md={6} xl={3}>
-                <div className='d-flex flex-column shadow rounded'>
+                <div className='d-flex flex-column shadow rounded mb-5'>
                     <div className='ms-3'><h3 className='fw-bolder'>Basic</h3></div>
                     <div className='ms-3'><p><strike>$89.99/mo</strike></p></div>
                     <div className='ms-3'><h3>$9.99/mo</h3></div>
@@ -56,7 +56,7 @@ function LandingPage() {
                 </div>
             </Col>
             <Col sm={12} lg={3} md={6} xl={3}>
-            <div className='d-flex flex-column shadow rounded'>
+            <div className='d-flex flex-column shadow rounded mb-5'>
                     <div className='ms-3'><h3 className='fw-bolder'>Standard</h3></div>
                     <div className='ms-3'><p><strike>$189.99/mo</strike></p></div>
                     <div className='ms-3'><h3>$99.99/mo</h3></div>
